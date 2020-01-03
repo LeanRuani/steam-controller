@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contáctenos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	
+</head>
+<body>
+<header>
+		<div id="cabeza">
+			<nav id="estructura_opciones">
+				<ul id="botonera">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="estadisticas.html">Estadisticas</a></li>
+				</ul>
+			</nav>
+			<div id="logo"> 
+				<img id="img_logo" src="assets/Steam-Logo.png">
+			</div>
+			<nav id="estructura_opciones">
+				<ul id="botonera">
+					<li><a href="https://store.steampowered.com/?l=latam">Steam</a></li>
+					<li><a href="build.html">Controller</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="seccion">
+			<div id="contiene_info">
+				<p>Cualquier duda que te surga, puedes contactarse con nosotros para resolver tus dudas. No te quedes con la intriga. Desde <img src="assets/logo_valve_footer.png"> te responderemos lo antes posible.</p>
+			</div>
+
+			<form id="formulario" onsubmit="return validar_formulario()">
+				<h2>¿Necesitas ayuda?</h2>
+				<p>Dejanos tus datos y te responderemos para resolver tus dudas!</p>
+				<hr>
+	            	<ul>
+	            		<li>Tu Nombre<input type="text" name="nombre" placeholder="ej: Mauricio"></li>
+	               		<li>Direccion de correo <input type="text" name="mail" placeholder="ej: correo@correo.com"></li>
+	               		<li>Preguntanos<textarea name="preg" placeholder="Dejanos tus preguntas"></textarea></li>
+	               		<li id="envio"><input type="submit" value="Enviar pregunta"></li>
+					</ul>
+	        </form>
+	</section>
+	
+	<footer>
+			<nav id="botonera2">
+				<h4>Acerca de Steam</h4>
+				<ul id="btn">
+					<li><a href="contacto.html">Contáctenos</a></li>
+					<li><a href="">Ayuda técnica</a></li>
+					<li><a href="">Noticias relacionadas</a></li>
+					<li><a href="">Grupos de la comunidad </a></li>
+				</ul>
+			</nav>
+			<nav id="redes">
+				<ul>
+					<li><a href="https://www.facebook.com/Steam" target="new"><span class="icon-facebook"></a></li>
+					<li><a href="https://twitter.com/steam_games" target="new"><span class="icon-twitter"></a></li>
+					<li><a href="https://store.steampowered.com/?l=spanish" target="new"><span class="icon-steam"></a></li>
+					<li><a href="https://www.youtube.com/user/Valve" target="new"><span class="icon-youtube"></a></li>
+				</ul>
+			</nav>
+		
+		<div id="pie">
+        	<img id="logo_pie" src="assets/logo_pie.png">
+			<div id="texto_datos">
+				<p>Toda imagen o texto utilizado en esta pagina pertenece a Valve Corporation © 2018. Para uso estudiantil.</p>
+			</div>
+        </div>
+	</footer>
+</body>
+<script src="js/contacto.js"></script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> POP UP - Resolución baja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-image: url(../assets/steam_controller_popup_low.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h2{
+            position: absolute;
+			background-color: rgba(0,0,0,0.8);
+            margin: 0;
+            padding: 0;
+			bottom: 0;
+			color: #fff;
+			width: 80%;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <script>
+        var ancho = window.screen.width; 
+        var alto = window.screen.height;            
+        var resolucion = document.createElement('h2');
+        resolucion.textContent = `Tu resolución actual es de ${ancho} x ${alto}`;
+        document.body.appendChild(resolucion);            
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?ylogtm');
+  src:  url('icomoon.eot?ylogtm#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?ylogtm') format('truetype'),
+    url('icomoon.woff?ylogtm') format('woff'),
+    url('icomoon.svg?ylogtm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-game-controller:before {
+  content: "\e900";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-facebook:hover {
+  color: #3b5998;
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-twitter:hover {
+  color: #00aced;
+}
+
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+.icon-youtube:hover {
+  color: #c4302b;
+}
+
+.icon-steam:before {
+  content: "\eaac";
+}
+
+.icon-steam:hover {
+  color: #2a475e;
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}

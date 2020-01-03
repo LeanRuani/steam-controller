@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <style>
+        .contiene_torta{
+            width: 400px;
+            margin: 30px auto;
+        }
+
+        section{
+            text-align: center;
+            color: white;
+        }
+
+        article{
+            padding: 30px;
+        }
+
+        .contiene_barra{
+            width: 500px;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="cabeza">
+            <nav id="estructura_opciones">
+                <ul id="botonera">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="estadisticas.html">Estadisticas</a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <img id="img_logo" src="assets/Steam-Logo.png">
+            </div>
+            <nav id="estructura_opciones">
+                <ul id="botonera">
+                    <li><a href="https://store.steampowered.com/?l=latam">Steam</a></li>
+                    <li><a href="build.html">Controller</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <article>
+            <p>Valve establece que 60 millones de dispositivos en relación a cada cuenta se han conectado a Steam.Valve confirma que se han vendido nada menos que 1,3 millones de mandos y que éstos se usan en más juegos que el resto de mandos gracias a su diseño único y prestaciones.</p>
+        </article>
+
+        <div class="contiene_torta">
+            <h2>Estadistica uso general</h2>
+            <canvas id="grafico_torta"></canvas>
+        </div>
+
+        <article>
+            <p><em>" Hasta la fecha, hemos vendido 1.3 millones de Steam Controllers, pero la manera en que se usan es lo que nos parece más interesante. La comunidad del Steam Controller juega un tipo de juegos más diverso que los que usan otros mandos, interactúan con casi el doble de títulos, comparado con el número de títulos del dispositivo en segundo lugar. Además, muchos de estos títulos fueron creados sin el soporte integrado para mandos. Nos da gusto ver a nuestros usuarios jugando todo tipo de juegos y continuaremos mejorando la experiencia del Steam Controller para nuestros usuarios presentes y futuros."</em></p>
+        </article>
+        
+        <div class="contiene_barra">
+            <h2>Controles activos el ultimo mes</h2>
+            <canvas id="grafico_barra"></canvas>
+        </div>
+    </section>
+
+    <footer>
+        <nav id="botonera2">
+        <h4>Acerca de Steam</h4>
+            <ul id="btn">
+                <li><a href="contacto.html">Contáctenos</a></li>
+                <li><a href="">Ayuda técnica</a></li>
+                <li><a href="">Noticias relacionadas</a></li>
+                <li><a href="">Grupos de la comunidad </a></li>
+            </ul>
+        </nav>
+        <nav id="redes">
+            <ul>
+                <li><a href="https://www.facebook.com/Steam" target="new"><span class="icon-facebook"></a></li>
+                <li><a href="https://twitter.com/steam_games" target="new"><span class="icon-twitter"></a></li>
+                <li><a href="https://store.steampowered.com/?l=spanish" target="new"><span class="icon-steam"></a></li>
+                <li><a href="https://www.youtube.com/user/Valve" target="new"><span class="icon-youtube"></a></li>
+            </ul>
+        </nav>
+        <div id="pie">
+            <img id="logo_pie" src="assets/logo_pie.png">
+            <div id="texto_datos">
+                <p>Toda imagen o texto utilizado en esta pagina pertenece a Valve Corporation © 2019. Para uso estudiantil.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/estadistica.js"></script>
+</body>
+</html>

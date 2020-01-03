@@ -1,0 +1,732 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  	background: #1b2838;
+}
+
+/* HEADER */
+header{
+	width: 960px;
+	height: 80px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color: #171a21;
+	border-radius: 2px 2px 30px 30px;
+}
+
+#cabeza{
+	width: 960px;
+	height: 60px; 
+}
+
+#logo{
+	width: 100px;
+	height:	100px;
+	margin: 0px;
+	float: left;
+}
+
+#img_logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+}
+
+#estructura_opciones{
+	width: 300px;
+	height: 60px;
+	margin-top: 10px;
+	margin-right: 55px;
+	margin-left: 55px; 
+	float: left;
+}
+
+ul#botonera li{  
+	display: inline-block; 
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 20px;	
+}
+
+ul#botonera a {
+	text-decoration: none;	
+	color: #b8b6b4;
+    text-transform: uppercase;
+}
+
+ul#botonera a:hover {
+	color:#ffff;
+	text-decoration: overline;
+}
+/* HEADER */
+
+/* SECTION */
+section{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+	background-color: #1b2838;
+}
+
+#contenedor_imagen{
+	width: 893px;
+    height: 640px;
+    margin-top: 10px;
+    margin-left:auto;
+	margin-right:auto;
+	position: relative; 
+}
+
+#texto{
+	color: #b8b6b4;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-top: 300px;
+    margin-left: 150px;
+    font-size: 80px;
+    top: 10px; 
+   	font-family: 'Bungee', cursive;
+   	line-height: 100px;
+}
+
+#palabra{
+	color: #b8b6b4;
+    text-transform: uppercase;
+    letter-spacing: 0.1em
+}
+
+#contenedor_texto{
+	width: 960px;
+	height: 500px;	
+	background-color: #1b2838;
+}
+
+#subcontenedor_texto_img{
+	width: 300px;
+	height: 430px;
+	float: left;
+	text-align: center;
+	margin: 20px;
+}
+
+#texto_medio{
+	width: 278px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#texto_medio:hover{
+	color: #ffff;
+}
+
+#sub_img{
+	width: 300px;
+	height: 306px;
+	margin: auto;
+}
+
+#cuerpo{
+	width: 960px;
+	height: 450px;
+	margin: auto;
+}
+
+#sub_texto{
+	width: 300px;
+	height: auto;
+	line-height: 1.5em;
+    font-size: 15px;
+    color: #acb2b8;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+#sub_texto1{
+	line-height: 1.0em;
+    font-size: 17px;
+    color: #acb2b8;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+#contenedor_video{
+	width: 960px;
+	height: auto;
+	background-color: #1b2838;
+}
+
+#intro{
+	width: 800px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#seccion2{
+	width: 960px;
+	height: 500px;
+	margin-top:0;
+	border-radius: 6px;
+	background: rgba( 27, 40, 56, 0.6);
+}
+/* SECTION */
+
+strong a{
+	text-decoration: none;	
+	color:#ffff;
+}
+
+/* FOOTER */
+footer{
+	width: 960px;
+	height: 250px;
+	background-color: #171a21;
+	border: 1px solid #29363d;
+	padding-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+#texto_datos{
+	width: 500px;
+	height: 40px;
+	margin: auto;
+}
+
+#texto_datos p{
+	color: #8F98A0;
+    font-size: 12px;
+    margin-left: 10px; 
+    line-height: 16px;
+    text-align: center;
+}
+
+#redes{
+	width: 200px;
+	height: 80px;
+	float: right;
+}
+
+#redes ul {
+	margin: 0px;
+	list-style-type: none;
+}
+
+#redes ul li{
+	display: inline;
+	padding: 5px;
+}
+
+#redes ul li a{
+	color: #525e72;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#pie{
+	width: 960px;
+	height: 100px;
+	background-color: #37454d;
+	float: right;
+}
+
+#logo_pie{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 382px;
+	margin-right: 382px;
+}
+
+h4{
+	font-size: 18px;
+    color: #aeb5ca;
+    margin-bottom: 10px;
+}
+
+#botonera2{
+	width: 210px;
+    height: 150px;
+    margin-left: 10px;
+    float: left;
+}
+
+#btn li{
+	list-style: none;
+}
+
+#btn li a {
+	color: #5b5d6d;
+	list-style: none;
+	font-size: 15px;
+	margin-top:5px;
+	background: transparent;
+	text-decoration: none;
+}
+
+#btn li :hover{
+	color: #1264fc;
+}
+/* FOOTER */
+
+
+
+/*----------Contacto-------------*/
+
+#seccion{
+	height: 500px;	
+}
+
+#contiene_info{
+	width: 400px;
+	margin-top: 20px;
+	float: left;
+}
+
+#contiene_info p{
+	margin: 10px;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px;
+	color: #8F98A0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+#formulario{
+	width: 500px;
+	text-align: center;
+	color: #8F98A0;
+	border-radius: 4px;
+	float: right;
+}
+
+#formulario input{
+	padding: 5px;
+	margin: 5px;
+	width: 400px;
+	height: 20px;
+	font-family: "Motiva Sans", Sans-serif;
+	line-height: 1.0em;
+    font-size: 17px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgb(239, 239, 239, 0.1);
+}
+
+#formulario textarea{
+	width: 400px;
+	height: 150px;
+	padding: 5px;
+	margin-top:10px; 
+	font-family: "Motiva Sans", Sans-serif;
+	line-height: 1.0em;
+    font-size: 17px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(239, 239, 239, 0.1);
+}
+
+#formulario h2{
+	text-shadow:5px 5px 12px #000000;
+	letter-spacing: 2pt;
+	font-family: 'Bevan', cursive;
+}
+
+#formulario li{
+	list-style: none;
+	text-shadow:5px 8px 30px #000000;
+}
+
+#formulario p {
+    padding: 2px;
+    font-size: 14px;
+    line-height: 2;
+	text-shadow:5px 5px 12px #000000;
+}
+
+#envio input {
+	width: 300px;
+	height: 30px;
+	background-color: #4a555b;
+	font-family: "Motiva Sans", Sans-serif;
+    font-size: 15px;
+    color: #acb2b8;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;   
+    color: #67c1f5 ;
+    border-radius: 20px 0px 20px 0px;
+    background: rgba( 103, 193, 245, 0.2 );
+}
+
+hr{
+	width: 50%;
+	margin-top: 8px;
+	margin-bottom: 8px;	
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+/*----------Fin Contacto-------------*/
+
+/*()()()(Responsive)()()()()(min)(a)(max)()()()()()()*/
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+/*header*/
+
+	header{
+		width: 600px;
+		height: 60px;
+	}
+
+	#cabeza{
+		width: 600px;
+		height: 60px;
+	}
+
+	#logo{
+		display: none;
+	}
+
+	#img_logo{
+		display: none;
+	}
+
+	#estructura_opciones{
+		display: inline-block;
+		width: 290px;
+		height: 40px;
+		text-align: center;
+		float: none;
+		margin: 0px;
+	}
+
+/*header*/
+
+/*section*/
+
+	section{
+		width: 580px;
+		margin-top: 10px;
+	}
+
+	#contenedor_imagen{
+		width: 580px;
+	    height: 440px;
+	    background-size: cover;
+	}
+
+	#imagen_principal{
+		width: 580px;
+    	height: 440px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	#cuerpo{
+		width: 580px;
+	}
+
+	#texto{
+	    width: 100px;
+	    height: 40px;
+	    margin-top: 250px;
+	    margin-left: 100px;
+	    font-size: 40px;
+	   	line-height: 40px;
+	}
+
+	#contenedor_texto{
+		width: 550px;
+		height: auto;	
+		display: inline-block;
+	}
+
+	#subcontenedor_texto_img{
+		width: 500px;
+		height: 220px;
+		float: none;
+		text-align: center;
+		margin: 20px;
+	}
+
+	#sub_img{
+		width: 200px;
+		height: 206px;
+		margin: auto;
+		float: left;
+	}
+
+	#sub_texto{
+		width: 270px;
+		margin-top: 20px;
+		margin-right: 10px;
+	    display: inline-block;
+	    font-size: 18px;
+		line-height: 1em;
+		font-family: 'Nunito', sans-serif;
+	}
+
+	#sub_texto1{
+		line-height: 1.0em;
+	    font-size: 18px;
+	    color: #acb2b8;
+	    font-family: 'Nunito', sans-serif;
+	}
+
+	#texto_medio{
+		width: 550px;
+		float: none;
+		margin-top: 0px;
+	}
+
+	#contenedor_video{
+		display: none;
+	}
+/*section*/
+
+/*section 2*/
+	#seccion{
+		width: 580px;
+		height: 600px;
+	}
+
+	#formulario{
+		width: 500px;
+		margin-left: 40px;
+   		margin-right: 40px;
+	}
+
+	#contiene_info{
+		width: 500px;
+		margin: auto;
+		float: none;
+	}
+
+	#contiene_info p{
+		margin: 5px;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	#formulario input{
+		width: 400px;
+		height: 20px;
+	}
+
+	#formulario textarea{
+		width: 400px;
+		height: 150px;
+	}
+/*section 2*/
+
+/*footer*/
+	footer{
+		width: 580px;
+		height: 190px;
+		display: block;
+	}
+
+	#redes{
+		width: 100px;
+		height: 40px;
+		float: right;
+	}
+
+	#pie{
+		width: 580px;
+		height: 40px;
+		float: right;
+		margin: auto;
+	}
+
+	#logo_pie{
+		display: none;
+	}
+
+
+	#botonera2{
+		width: 210px;
+	    height: 150px;
+	}
+/*footer*/
+} 
+/*()()()(Fin Responsive)()()()()(min)(a)(max)()()()()()()*/
+
+
+
+/*()()()(Responsive)()()()()(MAX)()()()()()()*/
+
+@media all and (max-width:599px){
+
+/*header*/
+
+	header{
+		width: 100%;
+		height: auto;
+	}
+
+	#cabeza{
+		width: 100%;
+		height: auto;
+	}
+
+	#logo{
+		display: none;
+	}
+
+	#img_logo{
+		display: none;
+	}
+
+	#estructura_opciones{
+		width: 100%;
+		float: none;
+		height: auto;
+		margin: 0px;
+		text-align: center;
+	}
+
+/*header*/
+
+/*section*/
+
+	section{
+		width: 100%;
+		height: auto;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#contenedor_imagen{
+		width: 100%;
+	    height: auto;
+	}
+
+	#imagen_principal{
+		width: 100%;
+    	height: auto;
+	}
+
+	#texto{
+	    display: none;
+	}
+
+	#contenedor_texto{
+		width: 100%;
+		height: auto;
+	}
+
+	#subcontenedor_texto_img{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+
+	#cuerpo{
+		width: 100%;
+		height: auto;
+	}
+
+	#sub_img{
+		width: 50%;
+	    height: auto;
+	}
+
+	#sub_texto{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	    display: block;
+	    float: none;
+	    font-size: 20px;
+		line-height: 1.2em;
+		font-family: 'Nunito', sans-serif;
+	}
+
+	#texto_medio{
+		display: none;
+	}
+
+	#contenedor_video{
+		display: none;
+	}
+
+/*section*/
+
+/*section 2*/
+	#seccion{
+		width: 100%;	
+	}
+	#formulario{
+		width: 100%;
+		height: auto;
+	}
+	#contiene_info{
+		width: 100%;
+		margin: auto;
+		float: none;
+	}
+	#formulario h2{
+		width: 100%;
+	}
+	#formulario hr{
+		width: 50%;
+	}
+	#contiene_info p{
+		width: 70%;
+		margin:auto;
+		padding: 10px;
+		font-size: 20px;
+	}
+	#formulario input{
+		width: 50%;
+		height: auto;
+	}
+	#formulario ul li{
+		font: 0/0 a;
+	}
+	#formulario textarea{
+		width: 55%;
+		height: 100px;
+	}	
+/*section 2*/
+
+/*footer*/
+	footer{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+	}
+
+	#pie{
+		display: none;
+	}
+
+	#logo_pie{
+		display: none;
+	}
+
+/*footer*/	
+}
+
+/*()()()(Fin Responsive)()()()()(MAX)()()()()()()*/
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Construccion</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+	<style>
+
+	body{
+		margin: 0;
+	}
+
+	video{
+		position: absolute;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+	}
+
+	h1{
+		margin: 0;
+		font-family: 'Bungee', cursive;
+	}
+	
+	a{
+		text-decoration: none;
+		color: #ffff;
+	}
+
+	.texto_video{
+		position: relative;
+		width: 50%;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		top: 200px;
+		left: 350px;
+		text-align: center;
+	}
+
+	#producido{
+		font-size: 40px;
+		font-family: 'Bungee', cursive;
+	}
+
+	#fecha{
+		font-size: 20px;
+	}
+	
+	</style>
+</head>
+<body>
+	<video id="build" src="vids/build.mp4" autoplay loop muted></video>
+	<div class="texto_video">
+		<h1><span class="icon-game-controller"></span> <a href="index.html">Steam Controller</a>	 <span class="icon-game-controller"></h1>
+		<p id="fecha"></p>
+		<strong><p id="producido"></p></strong>
+	</div>a
+	<script src="js/reloj.js"></script>
+</body>
+
+</html>
